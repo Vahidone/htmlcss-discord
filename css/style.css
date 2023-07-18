@@ -32,6 +32,9 @@ body{
 .debug > div{
   border: 1px solid black;
 }
+a{
+  text-decoration: none;
+}
 
 
 /* header  */
@@ -50,6 +53,12 @@ header .topbar .container {
   border-radius: 50px;
   border: none;
 }
+#accedi a{
+  color: black;
+}
+#accedi:hover{
+  background-color: lightgray;
+}
 
 .menu ul{
   list-style: none;
@@ -57,6 +66,10 @@ header .topbar .container {
 
 .menu ul li{
   padding: 0 15px;
+}
+.menu ul li:hover{
+  text-decoration: underline;
+  color: white;
 }
 .menu ul li a{
   text-decoration: none;
@@ -70,10 +83,53 @@ header .topbar .container {
   align-items: center;
   background-image: url(/img/jumbo.png);
   background-size: 100% 106%;
+  flex-direction: column;
 }
 #jumbtron .content{
   width: 90%;
   max-width: 900px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.content h1{
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+.content p{
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 15px;
+
+}
+
+#scarica {
+  width: 205px;
+  height: 51px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+#scarica a{
+  color: black;
+}
+#scarica:hover{
+  background-color: lightgrey;
+}
+#apri{
+  width: 290px;
+  height: 51px;
+  background-color: #23272A;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+}
+#apri a{
+  color: white;
+}
+#apri:hover{
+  background-color: rgb(68, 68, 68);
 }
  
   /* main  */
