@@ -133,6 +133,19 @@ header .topbar .container {
 }
  
   /* main  */
+
+  section .container .small-column h1{
+    font-size: 2.8rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.3;
+  }
+
+  section .container .small-column p{
+    font-size: larger;
+    line-height: 1.5;
+  }
+
   section,
   footer {
     padding: 40px 0;
@@ -147,6 +160,7 @@ header .topbar .container {
     justify-content: space-around;
     
   }
+
   /* footer  */
   
   footer{ 
