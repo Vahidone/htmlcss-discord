@@ -233,7 +233,27 @@ header .topbar .container {
 
 .footer-top .social{
   width: 25%;
+  padding-top: 40px;
 }
+.footer-top .social img{
+  margin-top: 20px;
+  width: 30px;
+}
+.footer-top .social h2{
+  font-size: 2rem;
+  color: #7288DA;
+}
+
+.footer-top .social ul{
+  list-style: none;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.footer-top .social ul li{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
 
 .footer-top .menu{
   width: 75%;
