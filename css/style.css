@@ -81,7 +81,7 @@ header .topbar .container {
   background-color: #255EE9;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: 100% 106%;
   flex-direction: column;
 }
@@ -103,7 +103,7 @@ header .topbar .container {
 
 }
 
-#scarica {
+.scarica {
   width: 205px;
   height: 51px;
   border-radius: 50px;
@@ -111,10 +111,10 @@ header .topbar .container {
   margin-right: 20px;
   font-size: 20px;
 }
-#scarica a{
+.scarica a{
   color: black;
 }
-#scarica:hover{
+.scarica:hover{
   background-color: lightgrey;
 }
 #apri{
@@ -133,6 +133,13 @@ header .topbar .container {
 }
  
   /* main */
+  .section-white{
+    height: 650px;
+  }
+  .section-grey{
+    height: 650px;
+    background-color: #F6F6F6;
+  }
 
   section .container .small-column h1{
     font-size: 2.8rem;
@@ -145,6 +152,46 @@ header .topbar .container {
     font-size: larger;
     line-height: 1.5;
   }
+  .big-grey{
+    height: 1400px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #F6F6F6;
+  }
+  .big-grey .container{
+    justify-content: center;
+    align-items: center;
+  }
+  .big-grey .container h1{
+    font-size: 47px;
+    margin-bottom: 30px;
+  }
+  .big-grey .container p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .big-grey .container img{
+    width: 100%;
+  }
+  .stars{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .stars .img-stars{
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(/img/stars.svg);
+    background-size: 100% 50%;
+    background-position: left;
+  }
+
 
   section,
   footer {
