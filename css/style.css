@@ -266,3 +266,14 @@ header .topbar .container {
   padding: 10px 0;
   justify-content: space-between;
 }
+.footer-bottom .register .scarica{
+  background-color: #7288DA;
+  padding: 7px 15px;
+}
+.footer-bottom .register .scarica:hover{
+  background-color: #1e4cc1;
+}
+.footer-bottom .register .scarica a{
+  color: white;
+  font-size: 15px;
+}
