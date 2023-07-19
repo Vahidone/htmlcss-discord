@@ -173,25 +173,27 @@ header .topbar .container {
     width: 100%;
   }
   .stars{
-    height: 100px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url(/img/stars.svg);
+    background-size: 100% 75%;
+    background-position: top;
     
   }
   .stars .img-stars{
-    width: 600px;
-    height: 100px;
-    margin: auto;
-    font-size: 30px;
-    font-weight: bold;
-    background-image: url(/img/stars.svg);
-    background-size: 100% 50%;
-    background-position: left;
+    font-size: 20px;
+  }
+  .stars .img-stars h2{
+    margin-top: 70px;
   }
 
   .stars .scarica{
     background-color: #7288DA;
+    margin-top: 50px;
   }
 
   .stars .scarica a{
