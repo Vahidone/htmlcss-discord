@@ -222,13 +222,14 @@ header .topbar .container {
   /* footer  */
   
   footer{ 
-    height: 600px;
+    height: 750px;
     color: white;
     background-color: #24272A;
   }
 
 .footer-top{
-  height: 400px;
+  height: 520px;
+  border-bottom: 1px solid #7288DA;
 }
 
 .footer-top .social{
@@ -259,11 +260,22 @@ header .topbar .container {
   width: 75%;
 }
 
+.footer-top .menu .col ul{
+  flex-direction: column;
+  margin-top: 25px;
+}
+.footer-top .menu .col ul li:first-child{
+  color: #7288DA;
+}
+.footer-top .menu .col ul li{
+  margin-top: 20px;
+}
+
 .footer-top .menu .col{
   flex-basis: 25%;
 }
 .footer-bottom{
-  padding: 10px 0;
+  padding: 20px 0;
   justify-content: space-between;
 }
 .footer-bottom .register .scarica{
