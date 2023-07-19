@@ -48,11 +48,11 @@ header .topbar .container {
   height: 100%;
 }
 #accedi{
-  width: 70px;
-  height: 36px;
+  padding: 10px 17px;
   border-radius: 50px;
   border: none;
 }
+
 #accedi a{
   color: black;
 }
@@ -104,8 +104,7 @@ header .topbar .container {
 }
 
 .scarica {
-  width: 205px;
-  height: 51px;
+  padding: 15px 20px;
   border-radius: 50px;
   border: none;
   margin-right: 20px;
@@ -118,8 +117,7 @@ header .topbar .container {
   background-color: lightgrey;
 }
 #apri{
-  width: 290px;
-  height: 51px;
+  padding: 15px 20px;
   background-color: #23272A;
   border-radius: 50px;
   border: none;
@@ -190,6 +188,17 @@ header .topbar .container {
     background-image: url(/img/stars.svg);
     background-size: 100% 50%;
     background-position: left;
+  }
+
+  .stars .scarica{
+    background-color: #7288DA;
+  }
+
+  .stars .scarica a{
+    color: white;
+  }
+  .stars .scarica:hover{
+    background-color: #1e4cc1;
   }
 
 
